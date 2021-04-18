@@ -9,9 +9,9 @@ This README.md will explain how to use the IU Quiz api. If you find out any mist
 # Docs
 
 목차 Contents
-* [1. Hello World](##Hello-World)
-    - [1-1. Base URL](###BaseURL)
-    - [1-2. Base URL](###Status-Codes)
+* [1. Hello World](#Hello-World)
+    - [1-1. Base URL](#BaseURL)
+    - [1-2. Base URL](#Status-Codes)
 
 ## Hello World
 
