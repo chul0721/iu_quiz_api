@@ -19,7 +19,7 @@ API가 작동하는지의 여부를 확인하기 위한 테스트 과정입니�
 This is a test process to find out if API is working well. It is fine to skip this process.
 
 ```http
-GET /api/hello/?name=int
+ex) GET /api/hello/?name=int
 ```
 
 | Parameter | Type | Description |
