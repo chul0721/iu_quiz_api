@@ -1,13 +1,13 @@
 import e, { Request, Response } from "express"
 
 const hello = (req: Request, res: Response) => {
-    if(!req.body.name){
+    if(!req.query.name){
         return (
             res.send('✅')
         )
     } else {
         return (
-            res.send(`✅ | Verified ${req.body.name}`)
+            res.send(`✅ | Verified ${req.query.name}`)
         )
     }
 }
