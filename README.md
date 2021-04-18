@@ -18,8 +18,9 @@ This README.md will explain how to use the IU Quiz api. If you find out any mist
 API가 작동하는지의 여부를 확인하기 위한 테스트 과정입니다. 해당 API는 별도의 키값을 통한 인증 과정이 없기 때문에 이 과정은 건너 뛰어도 무방합니다. <br />
 This is a test process to find out if API is working well. It is fine to skip this process.
 
+ex)
 ```http
-ex) GET /api/hello/?name=int
+GET /api/hello/?name=int
 ```
 
 | Parameter | Type | Description |
