@@ -3,3 +3,4 @@ node_modules
 yarn.lock
 data
 db
+.DS_Store
