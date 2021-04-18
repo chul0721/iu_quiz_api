@@ -1,9 +1,5 @@
-const api = (app:any, ) => {
-    return (
-        app.post(`/api/hello`, (req:any, res:any) => {
-            res.send('✅')
-        })
-    )
-}
+import hello from './hello'
 
-export default api
+export {
+    hello
+}

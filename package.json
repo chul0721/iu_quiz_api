@@ -1,9 +1,9 @@
 {
-  "name": "quiz_api",
+  "name": "iu_quiz_api",
   "version": "1.0.0",
   "description": "IU QUIZ API",
   "main": "app.ts",
-  "repository": "https://github.com/chul0721/quiz_api",
+  "repository": "https://github.com/chul0721/iu_quiz_api",
   "author": "__int",
   "license": "MIT",
   "dependencies": {
