@@ -7,7 +7,7 @@ const hello = (req: Request, res: Response) => {
         )
     } else {
         return (
-            res.send(`✅ | Verified ${req.query.name}`)
+            res.send(`✅ | Verified, ${req.query.name}!`)
         )
     }
 }
