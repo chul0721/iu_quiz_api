@@ -20,7 +20,7 @@ This is a test process to find out if API is working well. It is fine to skip th
 
 ex)
 ```http
-GET /api/hello/?name=int
+GET /api/hello?name=int
 ```
 
 | Parameter | Type | Description |
