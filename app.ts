@@ -14,9 +14,9 @@ app.use(express.urlencoded({
 const db = knex({
     client: "mysql",
     connection: {
-        host: "127.0.0.1",
-        user: "quiz_api",
-        database: "quiz_api",
+        host: `${process.env.DB_HOST}`,
+        user: `${process.env.DB_USER}`,
+        database: `${process.env.DB_NAME}`,
         password: `${process.env.DB_PW}`
     }
 })
