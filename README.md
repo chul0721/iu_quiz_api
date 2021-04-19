@@ -20,10 +20,10 @@
 
 목차
 * [1. Hello World(Ko)](#Hello-World(Ko))
-    - [1-1. Base URL](#BaseURL)
-    - [1-2. Status Codes](#Status-Codes)
-* [2. Request](#Request)
-* [3. Response](#Response)
+    - [1-1. Base URL](#BaseURL(Ko))
+    - [1-2. Status Codes](#Status-Codes(Ko))
+* [2. Request](#Request(Ko))
+* [3. Response](#Response(Ko))
 
 
 ## Hello World(Ko)
@@ -41,14 +41,14 @@ GET /api/hello?name=int
 
 파라미터로 name의 값이 지정되지 않았을 경우 api가 정상 작동하는 경우 "✅"가 리턴되며, 만약 파라미터로 이름을 지정할 경우 "✅ | Verified, (이름)!"가 리턴됩니다.
 
-### Base URL
+### Base URL(Ko)
 
 ```http
 http://chul0721.iptime.org:1993
 ```
 현재 베타 버전이므로 위 주소는 테스트입니다. 완성 후 정상 작동하는 URL로 바뀔 예정입니다.
 
-### Status Codes
+### Status Codes(Ko)
 
 API의 상태에 따라 아래 HTTP 상태 코드를 반환합니다.
 
@@ -60,7 +60,7 @@ API의 상태에 따라 아래 HTTP 상태 코드를 반환합니다.
 | 500 | `INTERNAL SERVER ERROR` |
 
 
-## Request
+## Request(Ko)
 
 API로 보내는 요청은 전부 GET으로 통일되어 있습니다. <br />
 요청을 보낼 때 파라미터를 통해 반환 값을 사용자화 할 수 있습니다. 아래 표에 따라 알맞는 값을 보낼 수 있습니다. "필수"로 적혀 있는 값을 요청하지 않는다면 값을 받을 수 없습니다. "필수 아님"으로 표시되어 있는 경우 필수적으로 요청하지 않아도 된다는 뜻입니다. 아래 표의 설명에 적혀있는 값과 다른 값을 요청 할 경우 값을 반환받을 수 없습니다.
@@ -76,7 +76,7 @@ ex)
 GET /api/quiz?honorifics=high?difficulty=middle?hint=yes
 ```
 
-## Response
+## Response(Ko)
 
 해당 API는 아래 값과 같이 값을 반환합니다. 이 때 받는 값을 [파라미터를 설정](#Request) 하여 사용자화 할 수 있습니다. ID는 내부에서 퀴즈들을 식별하기 위해 지정해둔 값이고, issue 생성 시 문제의 id로 어떤 문제에 버그가 있는지 알려주시면 더 빠르게 처리가 가능해집니다.
 
@@ -114,14 +114,14 @@ Official Support Discord: https://discord.gg/nKaM6RrN92
 # Docs
 
 Table of Contents
-* [1. Hello World](#Hello-World)
-    - [1-1. Base URL](#BaseURL)
-    - [1-2. Status Codes](#Status-Codes)
-* [2. Request](#Request)
-* [3. Response](#Response)
+* [1. Hello World](#Hello-World(En))
+    - [1-1. Base URL](#BaseURL(En))
+    - [1-2. Status Codes](#Status-Codes(En))
+* [2. Request](#Request(En))
+* [3. Response](#Response(En))
 
 
-## Hello World
+## Hello World(En)
 
 A test process to determine whether the API is working. The API does not have a separate authentication process with key values, so you can skip this process.
 
@@ -136,14 +136,14 @@ GET /api/hello?name=int
 
 If the parameter does not specify a value for name, "✅" is returned if api is operating normally, if the parameter is named "✅ | Verified, (name)!" is returned.
 
-### Base URL
+### Base URL(En)
 
 ```http
 http://chul0721.iptime.org:1993
 ```
 The address above is a test because it is currently a beta version. It will be changed to a working URL after completion.
 
-### Status Codes
+### Status Codes(En)
 
 Returns the HTTP status code below, depending on the status of the API.
 
@@ -155,7 +155,7 @@ Returns the HTTP status code below, depending on the status of the API.
 | 500 | `INTERNAL SERVER ERROR` |
 
 
-## Request
+## Request(En)
 
 All requests sent to API are unified to GET. <br />
 When you send a request, you can customize the return value through parameters. You can send the appropriate values according to the table below. You cannot receive a value unless you request a value that says "Required". If marked as "Not Required", this means that you do not need to request it. If you request a value that is different from the one described in the table below, you will not receive the value.
@@ -171,7 +171,7 @@ ex)
 GET /api/quiz?honorifics=high?difficulty=middle?hint=yes
 ```
 
-## Response
+## Response(En)
 
 The API returns values as shown below. You can customize the received value by [Set parameter] (#Request). The ID is the value you specify to identify quizzes internally, and when you create an issue, you can process it faster if you tell us which problem is bugged with the id of the problem.
 
