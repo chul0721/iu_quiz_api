@@ -13,7 +13,8 @@
 높임 : High/Middle/Low
 ```
 
-공식 서포트 디스코드 :<br />
+공식 서포트 디스코드 : https://discord.gg/nKaM6RrN92
+<br />
 ![Discord Banner](https://discordapp.com/api/guilds/750705387124031510/widget.png?style=banner2)
 
 # Docs
