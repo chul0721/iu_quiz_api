@@ -82,7 +82,7 @@ ex)
     "id" : "1",
     "quiz" : "아이유의 생일은?",
     "hint" : "YYMMDD",
-    "answer" : "5월 16일",
+    "answer" : "930516",
     "difficulty" : "low",
     "honorifics" : "low"
 }
