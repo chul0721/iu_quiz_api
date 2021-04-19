@@ -4,15 +4,15 @@ import knex from 'knex'
 import dotenv from 'dotenv'
 
 const app = express()
-let port = 1993
+const port = 1993
 dotenv.config()
 app.use(express.json())
 app.use(express.urlencoded({
-  extended: true
+    extended: true
 }))
 
 const db = knex({
-    client: "mysql",
+    client: 'mysql',
     connection: {
         host: `${process.env.DB_HOST}`,
         user: `${process.env.DB_USER}`,
@@ -21,7 +21,7 @@ const db = knex({
     }
 })
 
-app.set("db", db)
+app.set('db', db)
 app.use(router)
 
 

@@ -3,6 +3,6 @@ import express from 'express'
 
 const router = express.Router()
 
-router.get("/api/hello", hello)
+router.get('/api/hello', hello)
 
 export default router

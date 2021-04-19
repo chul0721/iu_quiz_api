@@ -1,6 +1,6 @@
-import e, { Request, Response } from "express"
+import { Request, Response } from 'express'
 
-const hello = (req: Request, res: Response) => {
+const hello = (req: Request, res: Response):Response => {
     if(!req.query.name){
         return (
             res.send('✅')
