@@ -3,8 +3,16 @@
 아이유 퀴즈 API는 전세계의 유애나 개발자들을 위해 아이유 퀴즈를 다양한 곳에서 활용할 수 있도록 하기 위해 만든 API입니다. <br />
 IU Quiz API is made for developers whom needs quiz for IU while hosting a service.
 
-이 README에서는 IU QUIZ API의 사용법에 대한 문서가 작성 되어 있습니다. 오타, 혹은 잘못된 정보나 오역, 기재되지 않은 정보들 등이 있다면 PR을 생성하여 주시면 검토 후 승인하도록 하겠습니다. <br />
+이 README에서는 IU QUIZ API의 사용법에 대한 [문서](#Docs)가 작성 되어 있습니다. 오타, 혹은 잘못된 정보나 오역, 기재되지 않은 정보들 등이 있다면 PR을 생성하여 주시면 검토 후 승인하도록 하겠습니다. <br />
 This README.md will explain how to use the IU Quiz api. If you find out any mistranslation or misspellings, please create PRs and I will thankfully approve it after reviewing.
+
+또한, 아이유 퀴즈인 만큼, 다른 사람들의 의견을 통해 퀴즈를 추가하려고 합니다. 이슈를 생성할 때 퀴즈 추가 태그를 붙여서 아래 형식에 맞게 작성해주시면 감사하겠습니다. <br />
+Also, as this quiz is IU quiz, I will approve other people's idea. Please open an issue fitting the following format :
+```
+난이도/Difficulty : 상/중/하 (High/Middle/Low)
+문제/Quiz : (문제) / (Quiz)
+정답/Answer : (답) / (Answer)
+```
 
 # Docs
 
@@ -12,6 +20,9 @@ This README.md will explain how to use the IU Quiz api. If you find out any mist
 * [1. Hello World](#Hello-World)
     - [1-1. Base URL](#BaseURL)
     - [1-2. Status Codes](#Status-Codes)
+* [2. Request](#Request)
+* [3. Response](#Response)
+
 
 ## Hello World
 
@@ -46,3 +57,17 @@ The API will return the following status codes:
 | 400 | `BAD REQUEST` |
 | 404 | `NOT FOUND` |
 | 500 | `INTERNAL SERVER ERROR` |
+
+
+## Request
+
+요청을 보낼 때 값을 JSON의 형태로 보내야 합니다. 또한 난이도에 따라 다양한 
+ex)
+```json
+{
+    "difficulty": "middle"
+}
+```
+
+
+## Response
