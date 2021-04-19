@@ -13,7 +13,7 @@
 높임 : High/Middle/Low
 ```
 
-공식 서포트 서버 : ![Discord Shield](https://discordapp.com/api/guilds/750705387124031510/widget.png?style=shield)
+공식 서포트 서버 : ![Discord Banner](https://discordapp.com/api/guilds/750705387124031510/widget.png?style=banner2)
 
 # Docs
 
