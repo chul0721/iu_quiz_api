@@ -23,8 +23,9 @@ const db = knex({
 
 app.set('db', db)
 app.use(router)
-
+app.set('trust proxy', true)
 
 app.listen(port, () => {
-    console.log('\x1b[36m%s\x1b[34m%s\x1b[0m', '[Server]',` Server on : ${port}`)
+    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+    console.log('\x1b[36m%s\x1b[34m%s\x1b[0m', '[Server]',`  Server on  : http://chul0721.iptime.org:${port}`)
 })
