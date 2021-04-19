@@ -63,9 +63,9 @@ API로 보내는 요청은 전부 GET으로 통일되어 있습니다. <br />
 
 | Parameter | Type | Description | Value | Required |
 | :---      | :--- | :---        | :---  | :---     |
-| `honorifics` | `string` | 상대경어법에 따라 질문의 말투를 높이거나 낮추어 청자를 높이거나 낮출 수 있습니다. | high/middle/low 중 한 가지 값 선택 | **필수**. |
-| `difficulty` | `string` | 난이도를 상, 중, 하 3가지로 분류하여 값을 받을 수 있습니다. | high/middle/low 중 한 가지 값 선택 | **필수 아님**. |
-| `hint` | `string` | 문제의 힌트를 선택적으로 받을 수 있습니다. | yes/no 중 한 가지 값 선택 | **필수 아님**. |
+| `honorifics` | `string` | 상대경어법에 따라 질문의 말투를 높이거나 낮추어 청자를 높이거나 낮출 수 있습니다. | high/middle/low 중 한 가지 값 선택 | **필수** |
+| `difficulty` | `string` | 난이도를 상, 중, 하 3가지로 분류하여 값을 받을 수 있습니다. | high/middle/low 중 한 가지 값 선택 | **필수 아님** |
+| `hint` | `string` | 문제의 힌트를 선택적으로 받을 수 있습니다. | yes/no 중 한 가지 값 선택 | **필수 아님** |
 
 ex)
 ```http
