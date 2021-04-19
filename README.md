@@ -10,6 +10,7 @@
 난이도 : High/Middle/Low
 문제 : (문제)
 정답 : (답)
+높임 : High/Middle/Low
 ```
 
 # Docs
