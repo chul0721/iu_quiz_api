@@ -13,7 +13,7 @@
 높임 : High/Middle/Low
 ```
 
-공식 서포트 서버 : <iframe src="https://discord.com/widget?id=750705387124031510&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+공식 서포트 서버 : <div><iframe src="https://discord.com/widget?id=750705387124031510&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
 
 # Docs
 
