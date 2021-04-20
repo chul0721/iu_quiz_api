@@ -45,9 +45,9 @@ GET /api/hello?name=int
 ### Base URL
 
 ```http
-http://chul0721.iptime.org:1993
+http://iu.devint.xyz
 ```
-현재 베타 버전이므로 위 주소는 테스트입니다. 완성 후 정상 작동하는 URL로 바뀔 예정입니다.
+위 주소가 기본 url 입니다. 위 주소 뒤에 값을 넣어 `http://iu.devint.xyz/api/hello?name=test`처럼 요청을 보내면 됩니다.
 
 ### Status Codes
 

@@ -4,7 +4,7 @@ import knex from 'knex'
 import dotenv from 'dotenv'
 
 const app = express()
-const port = 1993
+const port = 80
 dotenv.config()
 app.use(express.json())
 app.use(express.urlencoded({
@@ -27,5 +27,5 @@ app.set('trust proxy', true)
 
 app.listen(port, () => {
     console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-    console.log('\x1b[36m%s\x1b[34m%s\x1b[0m', '[Server]',`  Server on  : http://chul0721.iptime.org:${port}`)
+    console.log('\x1b[36m%s\x1b[34m%s\x1b[0m', '[Server]',`  Server on  : http://iu.devint.xyz/`)
 })
